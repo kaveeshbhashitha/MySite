@@ -239,6 +239,7 @@ section .title::after{
 }
 .about .about-content .right p{
     text-align: justify;
+    margin-left: 15px;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -745,7 +746,41 @@ footer span a:hover{
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 20px;
 }
 td {
     padding: 10px;
+    border: none;
+    vertical-align: top;
+}
+.textstd {
+    margin-left: 10px;
+}
+.textstd h4 {
+    margin-top: 0;
+}
+.textstd h5, .textstd h6 {
+    margin-bottom: 5px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+    table, tr, td {
+        display: block;
+        width: 100%;
+    }
+    td {
+        padding: 5px;
+    }
+    .textstd {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+.runningtext{
+    margin-left: 15px;
 }
