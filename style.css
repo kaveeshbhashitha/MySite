@@ -678,3 +678,39 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+.listitem{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+.skillss{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.plang{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.myskills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skillset{
+    padding: 0 10px 0 10px;
+}
+.seperator{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px rgb(109, 109, 109);
+}
+.gapbet{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
