@@ -221,8 +221,8 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     object-fit: cover;
     border-radius: 6px;
 }
@@ -380,7 +380,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "What I have done";
 }
 .teams .carousel .card{
     background: #222;
@@ -443,7 +443,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "Where I learned";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
