@@ -686,6 +686,7 @@ footer span a:hover{
     padding: 0 10px 0 10px;
     margin-right: 10px;
     list-style: none;
+    margin-top: 3px;
 }
 .skillss{
     display: flex;
