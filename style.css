@@ -714,3 +714,37 @@ footer span a:hover{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.uok{
+    height: 110px;
+    width: auto;
+    background-size: cover;
+}
+.lmu{
+    height: 70px;
+    width: auto;
+    background-size: cover;
+}
+.prs{
+    height: 60px;
+    width: auto;
+    background-size: cover;
+}
+.est{
+    height: 70px;
+    width: auto;
+    background-size: cover;
+}
+.studysec{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+}
