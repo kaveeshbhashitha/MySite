@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/wall.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -680,14 +680,24 @@ footer span a:hover{
     }
 }
 .listitem{
-    background-color: crimson;
-    color: white;
     border: none;
     border-radius: 5px;
     padding: 0 10px 0 10px;
     margin-right: 10px;
     list-style: none;
     margin-top: 3px;
+}
+.prl{
+    background-color: crimson;
+    color: white;
+}
+.fms{
+    background-color: rgb(230, 115, 20);
+    color: white;
+}
+.dbs{
+    background-color: rgb(160, 41, 90);
+    color: white;
 }
 .skillss{
     display: flex;
